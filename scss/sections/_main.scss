@@ -39,13 +39,28 @@
     }
 }
 
+.boton {
+    background-color: rgba(85, 15, 15, 0.473);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    &:hover {
+        background-color: $rojizo;
+        transform: scale(1.1);
+    }
+}
+
 
 .secundarias {
     background-image: linear-gradient(black, #0e0e0f);
     display: flex;
     padding: 30px;
     justify-content: space-between;
-
+    position: relative;
     div {
         padding: 10px;
 
@@ -173,11 +188,12 @@
 .videos {
     background-image: linear-gradient(#14141b, rgb(10, 10, 10));
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 0 15px 30px 15px;
+    position: relative;
 
     article {
-        padding: 10px;
+        margin: 25px;
         display: inline-block;
         @extend .luz;
 
@@ -198,6 +214,7 @@
 
 .terciarias {
     background-image: linear-gradient(black, #0e0e0f);
+    position: relative;
 
     a {
         @extend .decoration;
@@ -219,6 +236,7 @@
     div {
         @extend .random;
         @extend .luz;
+        margin-bottom: 40px;
 
         a {
             text-align: center;
@@ -297,7 +315,7 @@
         "analisis-2 analisis-4 analisis-6"
         "analisis-7 analisis-8 analisis-9";
     justify-items: center;
-
+    position: relative;
     div {
         @extend .analisisuno;
 
@@ -1240,6 +1258,10 @@ input {
         display: flex;
         flex-direction: column;
         align-items: center;
+        article{
+            margin-bottom: 45px;
+        }
+        
     }
 
     .container-2 {
@@ -1331,6 +1353,11 @@ input {
     }
 }
 
+.container-3{
+    div{
+        margin-bottom: 40px;
+    }
+}
 @media (max-width: 520px) {
     .secundarias div {
         padding: 0;

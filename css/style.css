@@ -105,6 +105,11 @@
 .fixed-top {
   background-image: linear-gradient(#0f0f0f, #050505); }
 
+.btn {
+  background-color: black; }
+  .btn:hover {
+    background-color: #e90f0fab; }
+
 .custom-hover {
   display: inline-block;
   transition: transform 0.3s ease; }
@@ -141,11 +146,25 @@
     .titulo a h1 {
       font-size: 30px; }
 
+.boton {
+  background-color: rgba(85, 15, 15, 0.473);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 15px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px; }
+  .boton:hover {
+    background-color: #e90f0fab;
+    transform: scale(1.1); }
+
 .secundarias {
   background-image: linear-gradient(black, #0e0e0f);
   display: flex;
   padding: 30px;
-  justify-content: space-between; }
+  justify-content: space-between;
+  position: relative; }
   .secundarias div {
     padding: 10px; }
     .secundarias div img {
@@ -217,10 +236,11 @@
 .videos {
   background-image: linear-gradient(#14141b, #0a0a0a);
   display: flex;
-  justify-content: space-evenly;
-  padding: 0 15px 30px 15px; }
+  justify-content: center;
+  padding: 0 15px 30px 15px;
+  position: relative; }
   .videos article {
-    padding: 10px;
+    margin: 25px;
     display: inline-block; }
     .videos article a {
       display: flex;
@@ -230,7 +250,8 @@
 
 /*!-------index-n-random------*/
 .terciarias {
-  background-image: linear-gradient(black, #0e0e0f); }
+  background-image: linear-gradient(black, #0e0e0f);
+  position: relative; }
 
 .container-2 {
   display: grid;
@@ -241,15 +262,17 @@
   justify-items: center;
   align-items: center;
   padding: 10px 100px 30px 100px; }
-  .container-2 div a {
-    text-align: center; }
-    .container-2 div a:hover {
-      color: #ffffff93; }
-    .container-2 div a img {
-      padding: 10px;
-      width: 350px; }
-    .container-2 div a h6 {
-      padding: 5px; }
+  .container-2 div {
+    margin-bottom: 40px; }
+    .container-2 div a {
+      text-align: center; }
+      .container-2 div a:hover {
+        color: #ffffff93; }
+      .container-2 div a img {
+        padding: 10px;
+        width: 350px; }
+      .container-2 div a h6 {
+        padding: 5px; }
 
 .noticiarandom-1 {
   grid-area: noticiarandom-1; }
@@ -288,7 +311,8 @@
   gap: 15px 0px;
   grid-auto-flow: row;
   grid-template-areas: "analisis-1 analisis-3 analisis-5" "analisis-2 analisis-4 analisis-6" "analisis-7 analisis-8 analisis-9";
-  justify-items: center; }
+  justify-items: center;
+  position: relative; }
   .container-3 div a {
     text-align: center; }
     .container-3 div a:hover {
@@ -867,6 +891,8 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center; }
+    .videos article {
+      margin-bottom: 45px; }
   .container-2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -919,6 +945,9 @@ input {
 @media (max-width: 650px) {
   .videos article iframe {
     width: 480px; } }
+
+.container-3 div {
+  margin-bottom: 40px; }
 
 @media (max-width: 520px) {
   .secundarias div {
