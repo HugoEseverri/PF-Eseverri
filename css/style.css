@@ -943,11 +943,14 @@ input {
     align-items: center; } }
 
 @media (max-width: 650px) {
+  .container-1 div {
+    margin: 20px; }
+  .container-1 .botonnoticias {
+    bottom: 40px; }
   .videos article iframe {
-    width: 480px; } }
-
-.container-3 div {
-  margin-bottom: 40px; }
+    width: 480px; }
+  .container-3 div {
+    margin-bottom: 40px; } }
 
 @media (max-width: 520px) {
   .secundarias div {
