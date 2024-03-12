@@ -1,0 +1,15 @@
+.titulo-footer {
+    color: white;
+    padding-top: 30px;
+    background-color: black;
+    text-align: center;
+
+    a {
+        @extend .decoration;
+        font-size: 30px;
+    }
+}
+
+.contacto {
+    background-color: black;
+}
