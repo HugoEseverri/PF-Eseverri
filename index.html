@@ -59,7 +59,7 @@
     <main>
 
         <!--carousel-->
-        <div id="carouselExampleCaptions" class="carousel slide color-fondo-uno">
+        <div id="carouselExampleCaptions" class="carousel slide color-fondo-uno" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -69,27 +69,34 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner posicion">
-                <div class="carousel-item active imagen-centrada">
-                    <img src="./img/baldursgate.jpg" class="d-block w-60 mx-auto p-2" alt="Baldurs Gate">
-                    <div class="carousel-caption">
-                        <p class="vanish">Baldurs Gate III</p>
-                        <p class="fs-5">El nuevo titán de rol sigue dando de qué hablar</p>
-                    </div>
+                <div class="carousel-item active imagen-centrada" data-bs-interval="5000">
+                    <a href="./pages/noticias.html">
+                        <img src="./img/baldursgate.jpg" class="d-block w-60 mx-auto p-2" alt="Baldurs Gate">
+                        <div class="carousel-caption">
+                            <p class="vanish">Baldurs Gate III</p>
+                            <p class="fs-5">El nuevo titán de rol sigue dando de qué hablar</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="carousel-item imagen-centrada">
-                    <img src="./img/finalfantasyrebirth.jpg" class="d-block w-60 mx-auto p-2" alt="Final Fantasy VII">
-                    <div class="carousel-caption">
-                        <p class="vanish">Final Fantasy VII</p>
-                        <p class="fs-5">Te contamos todo lo que se viene con la nueva entrega de Square-Enix</p>
-                    </div>
+                <div class="carousel-item imagen-centrada" data-bs-interval="5000">
+                    <a href="./pages/noticias.html">
+                        <img src="./img/finalfantasyrebirth.jpg" class="d-block w-60 mx-auto p-2"
+                            alt="Final Fantasy VII">
+                        <div class="carousel-caption">
+                            <p class="vanish">Final Fantasy VII</p>
+                            <p class="fs-5">Te contamos todo lo que se viene con la nueva entrega de Square-Enix</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="carousel-item imagen-centrada">
-                    <img src="./img/epicgames.jpg" class="d-block w-60 mx-auto p-2" alt="Epic Games Store">
-                    <div class="carousel-caption">
-                        <p class="vanish">Epic Games Store</p>
-                        <p class="fs-5">Los usuarios de Epic Games Store gastaron casi 1000 millones durante
-                            2023</p>
-                    </div>
+                <div class="carousel-item imagen-centrada" data-bs-interval="5000">
+                    <a href="./pages/noticias.html">
+                        <img src="./img/epicgames.jpg" class="d-block w-60 mx-auto p-2" alt="Epic Games Store">
+                        <div class="carousel-caption">
+                            <p class="vanish">Epic Games Store</p>
+                            <p class="fs-5">Los usuarios de Epic Games Store gastaron casi 1000 millones durante
+                                2023</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
