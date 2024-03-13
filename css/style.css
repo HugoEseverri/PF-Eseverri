@@ -564,6 +564,18 @@
     padding: 10px;
     text-align: center; }
 
+.noticia-img__chica {
+  background-color: white;
+  width: 1200px;
+  padding: 0 100px 0 100px; }
+  .noticia-img__chica p {
+    text-align: justify; }
+  .noticia-img__chica img {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0 40px 0; }
+
 /*!-------html-análisis------*/
 .analisis-texto {
   background-image: linear-gradient(#1f1e1e, #14141b, #050505);
