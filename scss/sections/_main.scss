@@ -646,7 +646,7 @@
     box-shadow: 0px 1px 10px rgba(255, 3, 3, 0.863);
 }
 
-/*!----noticia-thelastofus----*/
+/*!----noticias-varias----*/
 
 .color-fondo {
     background-color: $gris;
@@ -690,6 +690,19 @@
         width: 1000px;
     }
 }
+.noticia-dos{
+    background-color: white;
+    width: 1200px;
+    padding: 0 100px 80px 100px;
+
+    p {
+        text-align: justify;
+    }
+
+    img {
+        width: 1000px;
+    }
+}
 
 .noticiathelastofus-tres {
     background-color: white;
@@ -706,6 +719,20 @@
     }
 }
 
+.noticia-tres{
+    background-color: white;
+    width: 1200px;
+    padding: 0 100px 0 100px;
+
+    p {
+        text-align: justify;
+    }
+
+    h2 {
+        padding: 10px;
+        text-align: center;
+    }
+}
 /*!-------html-análisis------*/
 
 .analisis-texto {
