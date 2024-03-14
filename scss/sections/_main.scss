@@ -652,12 +652,16 @@
     background-color: $gris;
 }
 
+.color-fondo-dos {
+    background-image: linear-gradient(rgb(119, 1, 1), rgb(177, 47, 47));
+}
+
 .contenedor {
     @extend .columna;
 
 }
 
-.noticiathelastofus {
+.noticia {
     background-color: white;
     width: 1200px;
     padding: 160px 100px 20px 100px;
@@ -670,20 +674,6 @@
     h4 {
         padding: 30px;
         text-align: center;
-    }
-
-    img {
-        width: 1000px;
-    }
-}
-
-.noticiathelastofus-dos {
-    background-color: white;
-    width: 1200px;
-    padding: 0 100px 20px 100px;
-
-    p {
-        text-align: justify;
     }
 
     img {
@@ -706,7 +696,7 @@
 }
 
 
-.noticiathelastofus-tres {
+.noticia-tres {
     background-color: white;
     width: 1200px;
     padding: 0 100px 80px 100px;
@@ -721,7 +711,7 @@
     }
 }
 
-.noticia-tres {
+.noticia-tres-dos {
     background-color: white;
     width: 1200px;
     padding: 0 100px 0 100px;
@@ -1168,7 +1158,8 @@
         h3 {
             color: white;
         }
-        img{
+
+        img {
             width: 650px;
             border-radius: 3px;
             box-shadow: -3px 1px 10px rgba(255, 255, 255, 0.288);
@@ -1644,7 +1635,7 @@ input {
         background-color: white;
     }
 
-    .noticiathelastofus {
+    .noticia {
         width: 900px;
         padding: 0;
 
@@ -1662,7 +1653,7 @@ input {
         }
     }
 
-    .noticiathelastofus-dos {
+    .noticia-dos {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1711,7 +1702,7 @@ input {
         }
     }
 
-    .noticiathelastofus {
+    .noticia {
         h1 {
             font-size: 19px;
             font-weight: 600;
@@ -1724,8 +1715,11 @@ input {
 }
 
 @media (max-width: 550px) {
-    .noticiathelastofus h1 {
-        padding-top: 90px;
+    .noticia {
+
+        h1 {
+            padding-top: 90px;
+        }
     }
 
     .contenedor div p {
@@ -1734,12 +1728,16 @@ input {
 }
 
 @media (max-width: 420px) {
-    .contenedor div {
-        width: 350px;
+    .contenedor {
+        div {
+            width: 350px;
 
-        img {
-            width: 300px;
+            img {
+                width: 300px;
+            }
         }
+
+
     }
 }
 
@@ -1910,8 +1908,8 @@ input {
 
 
 /*!-----------@mediaq---contacto------*/
-@media (max-width: 1400px){
-    .puntua{
+@media (max-width: 1400px) {
+    .puntua {
         flex-direction: column;
         align-items: flex-start
     }
@@ -1938,8 +1936,9 @@ input {
 
     .puntua {
         padding: 20px 15px 20px 15px;
-        div{
-            img{
+
+        div {
+            img {
                 width: 400px;
             }
         }
@@ -1953,16 +1952,22 @@ input {
     }
 
     .puntua {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         div {
             padding: 10px;
+
             textarea {
                 width: 290px;
             }
-            img{
+
+            img {
                 width: 290px;
             }
         }
-        
+
     }
 }
 
