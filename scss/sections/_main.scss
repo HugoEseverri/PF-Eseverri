@@ -1153,6 +1153,9 @@
 .puntua {
     background-image: linear-gradient($negro-carousel, $gris, rgb(31, 30, 30));
     padding: 30px 200px 30px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
     div {
         color: white;
@@ -1164,6 +1167,11 @@
 
         h3 {
             color: white;
+        }
+        img{
+            width: 650px;
+            border-radius: 3px;
+            box-shadow: -3px 1px 10px rgba(255, 255, 255, 0.288);
         }
     }
 }
@@ -1902,7 +1910,12 @@ input {
 
 
 /*!-----------@mediaq---contacto------*/
-
+@media (max-width: 1400px){
+    .puntua{
+        flex-direction: column;
+        align-items: flex-start
+    }
+}
 
 @media (max-width: 850px) {
     .nosotros-somos {
@@ -1925,6 +1938,11 @@ input {
 
     .puntua {
         padding: 20px 15px 20px 15px;
+        div{
+            img{
+                width: 400px;
+            }
+        }
 
     }
 }
@@ -1936,10 +1954,15 @@ input {
 
     .puntua {
         div {
+            padding: 10px;
             textarea {
                 width: 290px;
             }
+            img{
+                width: 290px;
+            }
         }
+        
     }
 }
 

@@ -827,7 +827,10 @@
 
 .puntua {
   background-image: linear-gradient(#050505, #14141b, #1f1e1e);
-  padding: 30px 200px 30px 200px; }
+  padding: 30px 200px 30px 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
   .puntua div {
     color: white; }
     .puntua div p {
@@ -835,6 +838,10 @@
       text-align: justify; }
     .puntua div h3 {
       color: white; }
+    .puntua div img {
+      width: 650px;
+      border-radius: 3px;
+      box-shadow: -3px 1px 10px rgba(255, 255, 255, 0.288); }
 
 input {
   border-radius: 9px;
@@ -1236,6 +1243,11 @@ input {
     width: 320px; } }
 
 /*!-----------@mediaq---contacto------*/
+@media (max-width: 1400px) {
+  .puntua {
+    flex-direction: column;
+    align-items: flex-start; } }
+
 @media (max-width: 850px) {
   .nosotros-somos {
     padding: 160px 30px 20px 30px;
@@ -1248,13 +1260,19 @@ input {
   .nosotros-somos-dos {
     padding: 20px 30px 20px 30px; }
   .puntua {
-    padding: 20px 15px 20px 15px; } }
+    padding: 20px 15px 20px 15px; }
+    .puntua div img {
+      width: 400px; } }
 
 @media (max-width: 650px) {
   .nosotros-somos {
     padding: 100px 30px 20px 30px; }
-  .puntua div textarea {
-    width: 290px; } }
+  .puntua div {
+    padding: 10px; }
+    .puntua div textarea {
+      width: 290px; }
+    .puntua div img {
+      width: 290px; } }
 
 /*!-----------@mediaq---géneros------*/
 @media (max-width: 1800px) {
