@@ -656,6 +656,10 @@
     background-image: linear-gradient(rgb(119, 1, 1), rgb(177, 47, 47));
 }
 
+.color-fondo-tres {
+    background-image: linear-gradient(rgb(9, 107, 50), rgb(12, 145, 67));
+}
+
 .contenedor {
     @extend .columna;
 
@@ -671,7 +675,7 @@
         text-align: center;
     }
 
-    h4 {
+    h2 {
         padding: 30px;
         text-align: center;
     }
@@ -684,7 +688,7 @@
 .noticia-dos {
     background-color: white;
     width: 1200px;
-    padding: 0 100px 80px 100px;
+    padding: 0 100px 0 100px;
 
     p {
         text-align: justify;
@@ -695,19 +699,56 @@
     }
 }
 
-
-.noticia-tres {
+.noticia-dos-analisis {
     background-color: white;
     width: 1200px;
-    padding: 0 100px 80px 100px;
+    padding: 0 100px 0 100px;
 
     p {
         text-align: justify;
     }
 
-    h2 {
+    img {
+        display: block;
+        margin: 0 auto;
+        padding: 40px 0 40px 0;
+    }
+}
+
+.noticia-tres {
+    background-color: white;
+    width: 1200px;
+    padding: 0 100px 0 100px;
+
+    p {
+        text-align: justify;
+    }
+
+    h3 {
         padding: 10px;
         text-align: center;
+    }
+}
+
+.noticia-tres-analisis {
+    background-color: white;
+    width: 1200px;
+    padding: 0 100px 0 100px;
+
+    p {
+        text-align: justify;
+        margin: 0;
+    }
+
+    h3 {
+        padding: 10px;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        padding: 40px 0 40px 0;
     }
 }
 
@@ -1628,11 +1669,19 @@ input {
     }
 }
 
-/*!-----------@mediaq---noticia-the-last-of-us------*/
+/*!-----------@mediaq---noticias-varias------*/
 
 @media (max-width: 1250px) {
     .color-fondo {
         background-color: white;
+    }
+
+    .color-fondo-dos {
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    }
+
+    .color-fondo-tres {
+        background-image: linear-gradient(white);
     }
 
     .noticia {
@@ -1644,8 +1693,9 @@ input {
             padding-top: 150px;
         }
 
-        h4 {
+        h2 {
             font-size: 19px;
+            text-align: center;
         }
 
         img {
