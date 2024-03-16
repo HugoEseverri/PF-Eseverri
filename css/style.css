@@ -558,6 +558,9 @@
   padding: 0 100px 0 100px; }
   .noticia-tres p {
     text-align: justify; }
+  .noticia-tres h2 {
+    padding: 10px;
+    text-align: center; }
   .noticia-tres h3 {
     padding: 10px;
     text-align: center; }
