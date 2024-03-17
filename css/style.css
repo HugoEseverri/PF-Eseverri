@@ -182,7 +182,7 @@
     text-align: center; }
     .container-1 div a:hover {
       color: #ffffff79; }
-    .container-1 div a h6 {
+    .container-1 div a p {
       padding-top: 15px; }
 
 .noticia-1 {
@@ -271,7 +271,7 @@
       .container-2 div a img {
         padding: 10px;
         width: 350px; }
-      .container-2 div a h6 {
+      .container-2 div a p {
         padding: 5px; }
 
 .noticiarandom-1 {
@@ -317,7 +317,7 @@
     text-align: center; }
     .container-3 div a:hover {
       color: #ffffff79; }
-    .container-3 div a h6 {
+    .container-3 div a p {
       padding: 10px; }
 
 .analisis-1 {
@@ -384,7 +384,7 @@
     .container-4 div a img {
       width: 385px;
       padding: 10px; }
-    .container-4 div a h6 {
+    .container-4 div a p {
       padding: 10px; }
 
 .noticiasp-1 {
@@ -459,7 +459,7 @@
   .container-5 div a img {
     padding: 10px;
     width: 350px; }
-  .container-5 div a h6 {
+  .container-5 div a p {
     padding: 5px;
     text-align: center; }
 
@@ -503,7 +503,7 @@
   background-image: linear-gradient(#1f1e1e, #14141b, #050505); }
   .container-6 div a:hover {
     color: #ffffff79; }
-  .container-6 div a h6 {
+  .container-6 div a p {
     padding: 15px; }
 
 .hardware-1 {
@@ -657,7 +657,7 @@
       text-decoration: none;
       list-style: none;
       display: flex; }
-      .ranking article a h6 {
+      .ranking article a p {
         padding: 15px; }
 
 /*!--------html-videos-texto----*/
@@ -1056,9 +1056,9 @@ input {
         .container-1 div a img {
           padding-top: 10px;
           width: 280px; }
-        .container-1 div a h6 {
+        .container-1 div a p {
           padding: 5px; }
-  .noticia-7 a h6 {
+  .noticia-7 a p {
     font-size: 15px; }
   .container-2 div {
     width: 300px;
@@ -1109,7 +1109,7 @@ input {
       align-items: center; }
       .container-6 div a img {
         width: 400px; }
-      .container-6 div a h6 {
+      .container-6 div a p {
         text-align: center;
         padding: 5px; } }
 
