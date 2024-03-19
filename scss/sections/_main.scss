@@ -714,6 +714,11 @@
         text-align: justify;
     }
 
+    h2 {
+        text-align: center;
+        padding: 10px;
+    }
+
     h3 {
         text-align: center;
         padding: 10px;
@@ -743,7 +748,7 @@
 .noticia-tres {
     background-color: white;
     width: 1200px;
-    padding: 0 100px 0 100px;
+    padding: 0 100px 100px 100px;
 
     p {
         text-align: justify;
@@ -797,24 +802,14 @@
     }
 }
 
-.noticia-img__chica {
-    background-color: white;
-    width: 1200px;
-    padding: 0 100px 0 100px;
-
-    p {
-        text-align: justify;
-    }
-
-    img {
+.noticia-img__chica-epic{
+    img{
         width: 700px;
         display: block;
         margin: 0 auto;
         padding: 40px 0 40px 0;
     }
 }
-
-
 /*!-------html-análisis------*/
 
 .analisis-texto {
